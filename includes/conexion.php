@@ -7,10 +7,10 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
     $password = '';
     $basededatos = 'blog_master';
 }else{
-    $servidor = 'pxukqohrckdfo4ty.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-    $usuario = 'elplxav63ajzx6qb';
-    $password = 'evhfzqu3ulqojq5w';
-    $basededatos = 'mnfa0m8qzd4umebz';
+    $servidor = 'mysql-artemisa.alwaysdata.net';
+    $usuario = 'artemisa';
+    $password = '!Q2w3e4r%T';
+    $basededatos = 'artemisa_blog';
 }
 $db = mysqli_connect($servidor, $usuario, $password, $basededatos);
 

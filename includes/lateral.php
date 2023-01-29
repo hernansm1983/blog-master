@@ -12,7 +12,7 @@
 	
 	<?php if(isset($_SESSION['usuario'])): ?>
 		<div id="usuario-logueado" class="bloque">
-			<h3>Bienvenido, <?=$_SESSION['usuario']['nombre'].' '.$_SESSION['usuario']['apellidos'];?></h3>
+			<h4>Bienvenido: <br /> <?=$_SESSION['usuario']['nombre'].'<br /> '.$_SESSION['usuario']['apellidos'];?></h4>
 			<!--botones-->
 			<a href="crear-entrada.php" class="boton boton-verde">Crear Entrada</a>
 			<a href="crear-categoria.php" class="boton">Crear Categoria</a>

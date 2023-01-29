@@ -42,10 +42,10 @@ if(isset($_POST)){
         $guardar = mysqli_query($db, $sql);
         
         if($guardar){
-			$_SESSION['completado'] = "El alta de la nueva Entrada se ha completado con éxito";
+			$_SESSION['completado'] = "La Entrada se ha guardado con éxito";
             
 		}else{
-			$errores['sql'] = "Fallo al guardar la nueva Entrada!!";
+			$errores['sql'] = "Fallo al guardar la Entrada!!";
             
 		}
     }

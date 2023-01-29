@@ -21,6 +21,7 @@
     <?php if(isset($_SESSION['usuario']) && $_SESSION['usuario']['id'] == $entrada_actual['usuario_id']): ?>
            <div id="usuario-logueado" class="bloque-edicion">
                     <a href="editar-entrada.php?id=<?=$entrada_actual['id']?>" class="boton-edicion boton-naranja">Editar Entrada</a>
+                    &nbsp; &nbsp;  
                     <a href="javascript:confirmarBorrado(<?=$entrada_actual['id']?>)" class="boton-edicion boton-rojo">Eliminar Entrada</a>
            </div>
     <?php endif; ?>    

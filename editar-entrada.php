@@ -17,6 +17,9 @@
     
     <h1>Edicion de <?=$entrada_actual['titulo'];?></h1>
     <br />
+    <p><b>Nota: </b>En este blog somos amantes de los buenos modales y el vocabulario, no intentes escribir malas palabras. No podrás.</p>
+    </br>
+    </br>
     <!-- Mostrar errores -->
     <?php if(isset($_SESSION['completado'])): ?>
             <div class="alerta alerta-exito">

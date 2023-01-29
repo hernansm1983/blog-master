@@ -25,6 +25,9 @@
 					<li>
 						<a href="index.php">Inicio</a>
 					</li>
+                                        <li>
+						<a href="lista-categorias.php">+</a>
+					</li>
 					<?php 
 						$categorias = conseguirCategorias($db, '8');
 						if(!empty($categorias)):
@@ -37,9 +40,7 @@
 							endwhile;
 						endif;
 					?>
-                                        <li>
-						<a href="lista-categorias.php">+</a>
-					</li>
+                                        
 					
 				</ul>
 			</nav>

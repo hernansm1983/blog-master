@@ -5,9 +5,12 @@
 		
 <!-- CAJA PRINCIPAL -->
 <div id="principal">
-	<h1>Crear Entrada</h1>
+    <h1>Crear Entrada</h1>
     <p>Añade nuevas Entrada al Blog</p>
-	</br>
+    </br>
+    <p><b>Nota: </b>En este blog somos amantes de los buenos modales y el vocabulario, no intentes escribir malas palabras. No podrás.</p>
+    </br>
+    </br>
     <!-- Mostrar errores -->
 		<?php if(isset($_SESSION['completado'])): ?>
 			<div class="alerta alerta-exito">

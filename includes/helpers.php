@@ -123,7 +123,7 @@ function conseguirTodasLasEntradas($conexion){
 function eliminaMalasPalabras($frasecompleta){
 
     //Lista de palabras censuradas 
-    $censuradas=array('puto', 'putos', 'puta', 'putas', 'hijo de puta', 'pija', 'berga', 'verga');
+    $censuradas=array('puto', 'putos', 'puta', 'putas', 'hijo de puta', 'pija', 'berga', 'verga', 'mierda');
     //Contamos la partes
     $partes=count($censuradas);
 
