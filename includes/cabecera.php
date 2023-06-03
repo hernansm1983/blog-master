@@ -1,4 +1,7 @@
-<?php require_once 'conexion.php'; ?>
+<?php 
+error_reporting( E_ALL );
+ini_set( 'display_errors', 1 );
+require_once 'conexion.php'; ?>
 <?php require_once 'includes/helpers.php'; ?>
 <!DOCTYPE HTML>
 <html lang="es">
@@ -26,10 +29,10 @@
 						<a href="index.php">Inicio</a>
 					</li>
                                         <li>
-						<a href="lista-categorias.php">+</a>
+						<a href="lista-categorias.php">Todas</a>
 					</li>
 					<?php 
-						$categorias = conseguirCategorias($db, '8');
+						$categorias = conseguirCategorias($db, '12');
 						if(!empty($categorias)):
 							while($categoria = mysqli_fetch_assoc($categorias)): 
 					?>

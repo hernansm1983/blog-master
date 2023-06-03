@@ -5,12 +5,12 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
     $servidor = 'localhost';
     $usuario = 'root';
     $password = '';
-    $basededatos = 'blog_master';
+    $basededatos = 'blog-master';
 }else{
     $servidor = 'mysql-artemisa.alwaysdata.net';
     $usuario = 'artemisa';
     $password = '!Q2w3e4r%T';
-    $basededatos = 'artemisa_blog';
+    $basededatos = 'artemisa_blog_master';
 }
 $db = mysqli_connect($servidor, $usuario, $password, $basededatos);
 
